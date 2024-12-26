@@ -147,6 +147,7 @@ if __name__ == "__main__":
 ### Example 1: GenAI Streamlit Web App with Mistral API.
 
 Mistral API provides access to generative AI models that can be used for tasks such as text generation etc.
+
 **.env**
 
 ```env
