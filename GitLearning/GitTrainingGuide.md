@@ -11,7 +11,7 @@
 - [Branching and Merging](#branching-and-merging)
 - [Best Practices](#best-practices)
 - [Troubleshooting](#troubleshooting)
-- [Additional Resources](#Additional Resources)
+- [Additional Resources](#additional-resources)
 
 ## Introduction
 
