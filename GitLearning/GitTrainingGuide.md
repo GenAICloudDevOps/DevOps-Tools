@@ -366,3 +366,20 @@ To Abort the merge process
 - [Official Git Documentation](https://git-scm.com/doc)
 - [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
 - [Pro Git Book](https://git-scm.com/book/en/v2)
+
+## Glossary of Terms
+
+- **Repository (Repo):** A directory containing your project's files and Git's version control information (metadata and history).
+- **Commit:** A snapshot of your project's tracked files at a specific point in time. Each commit has a unique ID.
+- **Branch:** An independent line of development. It allows you to work on different features or fixes simultaneously without affecting the main codebase.
+- **HEAD:** A special pointer that refers to the current commit, usually the latest commit of the currently checked-out branch.
+- **Working Directory:** The local directory on your filesystem where you modify files. These changes may or may not be tracked by Git yet.
+- **Staging Area (Index):** A temporary area where you prepare and review changes before committing them to the local repository. `git add` moves changes here.
+- **Local Repository:** The copy of the Git repository stored on your computer. It contains all your project's history and branches.
+- **Remote Repository:** A version of your repository hosted on a server (e.g., on GitHub, GitLab). It allows for collaboration and backup.
+- **Clone:** To create a local copy of a remote repository on your machine.
+- **Fetch:** To download changes (commits, files, and refs) from a remote repository to your local repository, but without automatically integrating them into your working directory or current branch.
+- **Pull:** To fetch changes from a remote repository and then attempt to merge them into your current local branch. It's equivalent to `git fetch` followed by `git merge`.
+- **Merge:** The process of combining changes from different branches into a single branch.
+- **Push:** To upload your local repository commits (from a specific branch) to a remote repository.
+- **Origin:** The default alias given to the remote repository from which you cloned.
